@@ -732,7 +732,7 @@ color: rgba(46, 47, 66, 0.4);
 }
 
 .checkbox {
-  display: inline-flex;
+  
   align-items: center;
   font-weight: 400;
 font-size: 12px;
@@ -768,7 +768,7 @@ color: #8e8f99;
   border-color: #4D5AE5;
 }
 
-.form-input:focus .icon-modal {
+.form-input:focus + .icon-modal {
   fill: #4D5AE5;
 
 }
@@ -864,4 +864,5 @@ padding: 16px 32px;
 
 .check-icon-span {
   margin-right: 8px;
+  display: inline-flex;
 }

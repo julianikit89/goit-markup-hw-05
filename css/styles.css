@@ -827,11 +827,13 @@ color: #8e8f99;
    fill: transparent;
 }
 
-.check.visually-hidden:checked .check-icon-span {
+.ckeck:checked + .checkbox > .check-icon-span {
 background-color: #404bbf;
 border: none;
 fill: #F4F4FD;
 }
+
+/* .check.visually-hidden:checked .check-icon-span  */
 
 .link-privacy {
   color: #4d5ae5;;

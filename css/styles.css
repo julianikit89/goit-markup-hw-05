@@ -680,14 +680,12 @@ border: #404bbf;
 fill: #fff;
 }
 
-.close-btn:hover .close-modal {
+.close-btn:hover .close-modal,
+.close-btn:focus .close-modal {
   fill: #fff;
   
 }
 
-.close-btn:focus .close-modal {
-  fill: #fff;
-}
 
 .close-btn:focus {
   background-color: #404bbf;
@@ -827,13 +825,17 @@ color: #8e8f99;
    fill: transparent;
 }
 
-.ckeck:checked + .checkbox > .check-icon-span {
+.visually-hidden:checked + .checkbox > .check-icon-span {
 background-color: #404bbf;
 border: none;
 fill: #F4F4FD;
 }
 
-/* .check.visually-hidden:checked .check-icon-span  */
+.check-input:checked + .check-label .check-icon-span {
+  background-color: #404bbf;
+border: none;
+fill: #F4F4FD;
+}
 
 .link-privacy {
   color: #4d5ae5;;
